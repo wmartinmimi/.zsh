@@ -9,7 +9,8 @@ cd ~
 git clone https://github.com/wmartinmimi/.zsh.git
 cd .zsh
 git submodule init && git submodule update
-echo 'source ~/.zsh/init.sh >> .zshrc'
+fast-theme -t ~/.zsh/zsh-fsh/themes/catppuccin-mocha
+echo 'source ~/.zsh/init.sh' >> .zshrc
 ```
 
 ## IMPORTANT
