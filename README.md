@@ -13,6 +13,13 @@ fast-theme -t ~/.zsh/zsh-fsh/themes/catppuccin-mocha
 echo 'source ~/.zsh/init.sh' >> .zshrc
 ```
 
+## How to update the plugins
+
+```sh
+cd ~/.zsh
+git submodule update --remote --merge
+```
+
 ## IMPORTANT
 
 I do not own the zsh plugins provided in the git submodules.
