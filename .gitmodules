@@ -10,3 +10,6 @@
 [submodule "zsh-fsh"]
 	path = zsh-fsh
 	url = https://github.com/catppuccin/zsh-fsh
+[submodule "fzf-tab"]
+	path = fzf-tab
+	url = https://github.com/Aloxaf/fzf-tab
