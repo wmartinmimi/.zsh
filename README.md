@@ -6,17 +6,17 @@ my zsh plugin directory
 
 ```sh
 cd ~
-git clone https://github.com/wmartinmimi/.zsh.git
+git clone https://github.com/wmartinmimi/.zsh.git ~/.config/zsh/plugins
 cd .zsh
 git submodule init && git submodule update
 fast-theme -t ~/.zsh/zsh-fsh/themes/catppuccin-mocha
-echo 'source ~/.zsh/init.sh' >> .zshrc
+echo 'source ~/.config/zsh/plugins/init.sh' >> .zshrc
 ```
 
 ## How to update the plugins
 
 ```sh
-cd ~/.zsh
+cd ~/.config/zsh/plugins
 git submodule update --remote --merge
 ```
 
